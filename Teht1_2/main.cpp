@@ -4,8 +4,7 @@
 
 using namespace std;
 
-int main() {
-
+void Numeronarvauspeli() {
     int num, guess;
 
     srand(time(0));
@@ -28,6 +27,10 @@ int main() {
 
         }
     } while (true);
+}
+
+int main() {
+    Numeronarvauspeli();
 
     return 0;
 }
